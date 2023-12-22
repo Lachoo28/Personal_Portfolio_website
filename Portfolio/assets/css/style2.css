@@ -16,6 +16,7 @@
     --third-color: rgb(192, 166, 49);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
+
 }
 /* ----- BASE ----- */
 *{
@@ -491,6 +492,20 @@ textarea{
     font-size: 18px;
     rotate: -45deg;
 }
+.pop-up
+{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+
+}
 
 /* ----- FOOTER BOX ----- */
 footer{
@@ -626,6 +641,7 @@ footer{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  
 }
 
 /* The actual popup */
@@ -718,4 +734,6 @@ footer{
      
     
 }
+
+
 
