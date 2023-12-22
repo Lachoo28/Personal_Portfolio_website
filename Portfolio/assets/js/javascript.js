@@ -98,6 +98,14 @@ srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
 
+function showpopup (){
+  var popUp = document.getElementById("popup");
+  popUp.style.display = "block";
+  setTimeout(function() {
+    popUp.style.display = "none";
+  }, 3000);
+}
+
 
 /* ----- CHANGE ACTIVE LINK ----- */
 
