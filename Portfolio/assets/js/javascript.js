@@ -12,8 +12,8 @@ function myMenuFunction(){
 /**force js */
 function downloadFile() {
   var link = document.createElement("a");
-  link.download = "Laksh_cv.pdf";
-  link.href = "./assets/img/Laksh_cv.pdf";
+  link.download = "Pulendren_lakshan_cv.pdf";
+  link.href = "./assets/img/Pulendren_lakshan_cv.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
